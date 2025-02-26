@@ -1,9 +1,14 @@
 import {View, Text, StyleSheet, Pressable} from 'react-native'
 
 function Button () {
+
+  function mensagem(){
+    alert('Parabéns você é DRM!')
+  }
+
   return (
     <View>
-      <Pressable style={styles.button}>
+      <Pressable style={styles.button} onPress={mensagem}>
         <Text style={styles.buttonText}>Inicie sua jornada na DRM!</Text>
       </Pressable>
     </View>
