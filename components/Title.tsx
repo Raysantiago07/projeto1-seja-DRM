@@ -6,7 +6,7 @@ function Title () {
       <Text style={styles.title}>
         Bem-vindo à EEEP Deputado Roberto Mesquita!
       </Text>
-      <Text>
+      <Text style={styles.margin}>
         Venha fazer parte da escola que prepara profssionais para o mercado de trabalho
       </Text>  
     </View>
@@ -22,7 +22,12 @@ function Title () {
       textAlign: 'center',
       padding: 10,
       width: '100%',
-      backgroundColor: 'green'
+      backgroundColor: 'green',
+    },
+
+    margin: {
+      margin: 5,
+      padding: 5,
     }  
     
   })
