@@ -6,7 +6,7 @@ function Subtitle () {
       <Text style={styles.subtitle}>
         Escolha um curso e faça sua história!
       </Text>
-      <Text>
+      <Text style={styles.margin}>
         Aqui você pode escolher cursar Administração, Desenvolvimento de Sistemas ou Redes de Computadores. Todos eles possuem alta demanda no mercado atual.
       </Text>
     </View>
@@ -24,6 +24,11 @@ function Subtitle () {
       color: 'white',
       fontWeight: 'bold',
       backgroundColor: 'orange',
+    },
+
+    margin: {
+      margin: 5,
+      padding: 5,
     }  
     
   })
